@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+   <style>
+
+    body{
+        font-weight: bolder;
+        background-image: url(back.jpg);
+        background-size: cover;
+        font-family: 'Oswald', sans-serif;
+    }
+    
+
+    .d{
+        margin-left: 750px;
+        margin-top: 250px;
+        width: 300px;
+        height:600px;
+        border: 4px solid black;
+        background-color: bisque;
+    }
+    .fm1:hover{
+        transform: scale(1.1);
+
+    }
+    .fm2{
+        border: 2px solid black;
+    }
+    .fm3:hover{
+        transform: scale(1.6);
+    }
+    .steam:hover{
+        transform: scale(1.4);
+    }
+    .unity:hover{
+        transform: scale(1.4);
+    }
+    .steam{
+        transition: all 0.5s;
+        margin-left: 40px;
+        margin-bottom: 20px;
+    }
+
+    .unity{
+        transition: all 0.5s;
+        margin-top: 30px;
+        margin-left: 60px;
+    }
+    .images {
+        margin-top: 40px;
+        margin-left: 100px;
+
+    }
+   </style>
+</head>
+
+<body>
+   <div class="d"> 
+    <center><h1>REGISTER NOW</h1></center>
+    
+    <form class="form1" action="/action_page.php">
+      <center><label for="fname" class="fm1">First name</label></center><br>
+      <center><input type="text" class="fm2"><br><br></center>
+      <center><label for="lname">Last name</label><br></center>
+      <center><input type="text" class="fm2"><br><br></center>
+        <center><label for="mail">Mail id</label><br></center>
+        <center><input type="text" class="fm2"><br><br></center>
+        <center><label for="pno">Phone no</label><br></center>
+        <center><input type="number" class="fm2"><br><br></center>
+        
+        <center><button class="fm3"><a href="https://www.fortnite.com/?lang=en-US">Register</a></button></center>
+
+        
+        <img class="steam" src="steam.png" width="70px" height="70px">
+        <img class="unity" src="unit.png" width="100px" height="100px">
+    
+      </form> 
+   </div>
+</body>
+</html>

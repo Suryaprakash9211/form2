@@ -1,0 +1,61 @@
+.d{
+    margin-left: 810px;
+    margin-top: 250px;
+    width: 300px;
+    height:450px;
+    border: 4px solid black;
+    background-color:lightgray;
+}
+.fm1:hover{
+    transform: scale(1.1);
+
+}
+.fm2{
+    border: 2px solid black;
+}
+.fm3:hover{
+    transform: scale(1.6);
+}
+.steam:hover{
+    transform: scale(1.4);
+}
+.unity:hover{
+    transform: scale(1.4);
+}
+.steam{
+    transition: all 0.5s;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.unity{
+    transition: all 0.5s;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+.images {
+    margin-top: 40px;
+    margin-left: 100px;
+
+}
+
+.forg{
+    
+    font-style: italic;
+    color: black;
+    position: relative;
+    left: 95px;
+    top: 90px;
+}
+.sign:hover{
+    transform: scale(1.1);
+}
+.sign{
+    transition: all 0.5s;
+    margin-top: 20px;
+}
+body{
+    background-image: url(dragon.jpg);
+    background-size: cover;
+}
+
